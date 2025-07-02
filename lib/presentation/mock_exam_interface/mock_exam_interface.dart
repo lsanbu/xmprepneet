@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import '../../core/app_export.dart';
-import '../../theme/app_theme.dart';
 import './widgets/exam_header_widget.dart';
 import './widgets/exam_navigation_widget.dart';
 import './widgets/exam_results_widget.dart';

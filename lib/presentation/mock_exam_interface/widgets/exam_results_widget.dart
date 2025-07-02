@@ -1,6 +1,4 @@
 import 'package:fl_chart/fl_chart.dart';
-import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
 
 import '../../../core/app_export.dart';
 
@@ -152,8 +150,8 @@ class _ExamResultsWidgetState extends State<ExamResultsWidget>
                                   'Attempted', '$attemptedQuestions'),
                               _buildQuickStat(
                                   'Time Spent', _formatTime(totalTimeSpent)),
-                              _buildQuickStat('Percentile',
-                                  percentile.toStringAsFixed(1)),
+                              _buildQuickStat(
+                                  'Percentile', percentile.toStringAsFixed(1)),
                             ],
                           ),
                         ],

@@ -1,9 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:sizer/sizer.dart';
 
 import '../../core/app_export.dart';
-import '../../theme/app_theme.dart';
 import './widgets/login_form_widget.dart';
 import './widgets/login_header_widget.dart';
 import './widgets/social_login_widget.dart';
